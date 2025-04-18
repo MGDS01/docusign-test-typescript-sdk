@@ -1,0 +1,18 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    DocusignTypescriptTest2-OAS:
+        inputs:
+            - location: https://raw.githubusercontent.com/MGDS01/openapiSecTest/main/openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/docusign/docusign/docusign-typescript-test-2-oas
+targets:
+    docusign-typescript-test-2:
+        target: typescript
+        source: DocusignTypescriptTest2-OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/docusign/docusign/docusign-typescript-test-2-oas-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false
