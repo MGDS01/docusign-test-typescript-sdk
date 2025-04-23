@@ -39,7 +39,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "DocusignTypescriptTest2",
-    version: "0.1.2",
+    version: "0.1.5",
   });
 
   const client = new DocusignTypescriptTest2Core({
