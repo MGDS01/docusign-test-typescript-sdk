@@ -1,6 +1,6 @@
 {
   "name": "docusign-typescript-test-2",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "author": "Speakeasy",
   "type": "module",
   "bin": {
